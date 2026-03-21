@@ -151,7 +151,7 @@ export class Popup {
     tag.style.letterSpacing = "1px";
 
     const title = document.createElement("h2");
-    title.innerText = "Explore Innovation 🚀";
+    title.innerText = "Solution Challenge 2026 🚀";
     title.style.margin = "10px 0";
     title.style.fontSize = isMobile ? "20px" : "24px";
     title.style.color = "#111";
@@ -160,7 +160,7 @@ export class Popup {
 
     const desc = document.createElement("p");
     desc.innerText =
-      "Join exciting hackathons, workshops, and technical sessions.";
+      "Join exciting hackathons.";
     desc.style.color = "#3c4043";
     desc.style.fontSize = isMobile ? "13px" : "14px";
     desc.style.marginBottom = "22px";

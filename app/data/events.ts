@@ -21,23 +21,28 @@ export const events = [
   //   ]
   // },
   {
-    id: "InnovaTE-2026",
-    title: "InnovaTE 2026",
-    date: "29 Mar - 10 Apr",
-    location: "Offline",
-    description: "InnovaTE 2026 is a high-energy hackathon hosted by GDG SOIT RGPV where creativity meets the compiler.",
-    tag: "Upcoming",
-    featured: true,
-    image: "/gdg-events/gdg new event image.jpg",
-    details: "In this edition, we are focusing on Impactful Innovation. We’re calling all developers, UI/UX designers, and problem-solvers to the SOIT campus to build prototypes that matter. From AI-driven campus solutions to sustainable tech, this is your platform to turn What if? into It works!",
-    time: "-----",
-    registerLink: "https://vision.hack2skill.com/event/gdgoc-25-bitnbuildsoit",
-    whatToExpect: [
-      "Intensive Open Innovation Challenges",
-      "Mentorship from Industry Experts",
-      "Exclusive GDG Swag & Rewards",
-      "Hands-on Solution Building"
-    ]
+     id: "solution-challenge-2026",
+  title: "Google Solution Challenge 2026",
+  date: "Mar - Apr 2026",
+  location: "Online",
+  description:
+    "Google Solution Challenge 2026 is a global hackathon by GDG where students build innovative solutions for real-world problems using Google technologies and compete for ₹10 Lakh+ prize pool.",
+  tag: "On Going",
+  featured: true,
+  image: "/gdg-events/d6fc9124-59f7-4b50-a897-6039562cf58a.png",
+  details:
+    "In this global challenge, students develop impactful solutions aligned with the United Nations Sustainable Development Goals (SDGs). Participants will leverage technologies like AI, Firebase, Flutter, and Google Cloud. Top teams get a chance to win a ₹10 Lakh+ prize pool along with global recognition, mentorship, and exciting rewards.",
+  time: "Submission Deadline: April 2026",
+  registerLink:
+    "https://promptwars.in/solutionchallenge2026.html",
+  whatToExpect: [
+    "₹10 Lakh+ Prize Pool 💰",
+    "Build real-world impactful projects using Google technologies",
+    "Mentorship from Google experts and GDG leaders",
+    "Opportunity to compete globally",
+    "Certificates, recognition, and exciting rewards",
+    "Hands-on experience with AI, Cloud, and App Development"
+  ]
   },
   {
     id: "bit-n-build-hackathon",
