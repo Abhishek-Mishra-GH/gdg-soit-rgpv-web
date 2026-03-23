@@ -6,7 +6,7 @@ import { Calendar, MapPin, ArrowLeft, Clock, Share2, Ticket } from "lucide-react
 import Link from "next/link"
 import Image from "next/image"
 import { events } from "../../data/events"
-
+import CopyButton from "./copyButton"    // import for copybutton
 
 
 
@@ -176,20 +176,8 @@ export default async function EventPage({ params }: { params: Promise<{ id: stri
                                         </div>
 
                                         {event.eventCode && (
-    <div className="mb-6">
-        <div className="w-full flex items-center justify-between px-4 py-3 border border-neutral-200 rounded-xl">
-
-            {/* Code */}
-            <span className="font-semibold tracking-wide">
-                {event.eventCode}
-            </span>
-
-            {/* Copy Button */}
-           
-
-        </div>
-    </div>
-)}
+                                            <CopyButton code={event.eventCode} />  // copyButton
+                                        )}
                                         
                                     </div>
 

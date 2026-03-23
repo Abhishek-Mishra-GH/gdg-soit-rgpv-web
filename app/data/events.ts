@@ -53,7 +53,7 @@ export const events = [
   time: "Submission Deadline: April 2026",
   registerLink:
     "https://promptwars.in/solutionchallenge2026.html",
-  eventCode: "USE CODE : V4J4EC",      // OPTIONAL
+  eventCode: "      V4J4EC",      // OPTIONAL
   whatToExpect: [
     "₹10 Lakh+ Prize Pool 💰",
     "Build real-world impactful projects using Google technologies",
