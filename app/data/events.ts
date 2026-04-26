@@ -12,7 +12,7 @@ export type Event = {
   time: string;
   registerLink: string;
   whatToExpect: string[];
-  roadmapImage?: string;
+  roadmapImage?: string;// ✅ optional here
   eventCode?: string; // ✅ optional here
 };
 
@@ -59,31 +59,31 @@ export const events = [
     ]
   },
   {
-     id: "solution-challenge-2026",
-  title: "Google Solution Challenge 2026",
-  date: "Mar - Apr 2026",
-  location: "Online",
-  description:
-    "Google Solution Challenge 2026 is a global hackathon by GDG where students build innovative solutions for real-world problems using Google technologies and compete for ₹10 Lakh+ prize pool.",
-  tag: "On Going",
-  featured: true,
-  image: "/gdg-events/d6fc9124-59f7-4b50-a897-6039562cf58a.png",
-  details:
-    "In this global challenge, students develop impactful solutions aligned with the United Nations Sustainable Development Goals (SDGs). Participants will leverage technologies like AI, Firebase, Flutter, and Google Cloud. Top teams get a chance to win a ₹10 Lakh+ prize pool along with global recognition, mentorship, and exciting rewards.",
-  time: "Submission Deadline: April 2026",
-  registerLink:
-    "https://promptwars.in/solutionchallenge2026.html",
-  eventCode: "      V4J4EC",      // OPTIONAL
-  whatToExpect: [
-    "₹10 Lakh+ Prize Pool 💰",
-    "Build real-world impactful projects using Google technologies",
-    "Mentorship from Google experts and GDG leaders",
-    "Opportunity to compete globally",
-    "Certificates, recognition, and exciting rewards",
-    "Hands-on experience with AI, Cloud, and App Development"
+    id: "solution-challenge-2026",
+    title: "Google Solution Challenge 2026",
+    date: "Mar - Apr 2026",
+    location: "Online",
+    description:
+      "Google Solution Challenge 2026 is a global hackathon by GDG where students build innovative solutions for real-world problems using Google technologies and compete for ₹10 Lakh+ prize pool.",
+    tag: "On Going",
+    featured: false,
+    image: "/gdg-events/d6fc9124-59f7-4b50-a897-6039562cf58a.png",
+    details:
+      "In this global challenge, students develop impactful solutions aligned with the United Nations Sustainable Development Goals (SDGs). Participants will leverage technologies like AI, Firebase, Flutter, and Google Cloud. Top teams get a chance to win a ₹10 Lakh+ prize pool along with global recognition, mentorship, and exciting rewards.",
+    time: "Submission Deadline: April 2026",
+    registerLink:
+      "https://promptwars.in/solutionchallenge2026.html",
+    eventCode: "      V4J4EC",      // OPTIONAL
+    whatToExpect: [
+      "₹10 Lakh+ Prize Pool 💰",
+      "Build real-world impactful projects using Google technologies",
+      "Mentorship from Google experts and GDG leaders",
+      "Opportunity to compete globally",
+      "Certificates, recognition, and exciting rewards",
+      "Hands-on experience with AI, Cloud, and App Development"
     ],
 
-  roadmapImage : "/gdg-events/solutionChallengeRoadmap.png"// OPTIONAL
+    roadmapImage: "/gdg-events/solutionChallengeRoadmap.png"// OPTIONAL
   },
   {
     id: "bit-n-build-hackathon",

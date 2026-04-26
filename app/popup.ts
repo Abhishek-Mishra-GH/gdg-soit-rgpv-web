@@ -38,7 +38,7 @@ export class Popup {
     popup.style.boxShadow = "0 25px 60px rgba(0,0,0,0.25)";
     popup.style.fontFamily = "'Google Sans', Roboto, sans-serif";
     popup.style.overflow = "hidden";
-    
+
 
     // Animations
     const styleSheet = document.createElement("style");
@@ -72,7 +72,7 @@ export class Popup {
     glow.style.borderRadius = "20px";
     glow.style.zIndex = "-1";
     glow.style.filter = "blur(15px)";                           //current trial
-    
+
     glow.style.opacity = "0.6";
     glow.style.background =
       "linear-gradient(270deg, #1265eb, #dd2211, #e4cf0e, #1ad94d)";
@@ -151,7 +151,7 @@ export class Popup {
     tag.style.letterSpacing = "1px";
 
     const title = document.createElement("h2");
-    title.innerText = "Solution Challenge 2026 🚀";
+    title.innerText = "AI ODYSSEY 2026 🤖";
     title.style.margin = "10px 0";
     title.style.fontSize = isMobile ? "20px" : "24px";
     title.style.color = "#111";
@@ -160,7 +160,7 @@ export class Popup {
 
     const desc = document.createElement("p");
     desc.innerText =
-      "POWERED BY GOOGLE. ";
+      "Explore the world of AI with experts . ";
     desc.style.color = "#3c4043";
     desc.style.fontSize = isMobile ? "13px" : "14px";
     desc.style.marginBottom = "22px";
