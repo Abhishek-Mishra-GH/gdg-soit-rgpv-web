@@ -16,15 +16,15 @@ export default function EventsPage() {
   return (
     <SmoothScroll>
       <main className="min-h-screen bg-white text-neutral-900">
-        
+
         {/* --- Header --- */}
         <section className="pt-32 pb-12 px-6 md:px-12">
           <div className="max-w-7xl mx-auto">
             <motion.div
-               initial={{ opacity: 0, y: 20 }}
-               animate={{ opacity: 1, y: 0 }}
-               transition={{ duration: 0.6 }}
-               className="mb-12"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="mb-12"
             >
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
                 Connect. Learn.<br />
@@ -41,7 +41,7 @@ export default function EventsPage() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                onClick={() => router.push(`/events/${featuredEvent.id}`)}
+                onClick={() => router.push(`/eventPage`)}
                 className="group relative w-full h-[500px] rounded-[2.5rem] overflow-hidden cursor-pointer"
               >
                 <Image
@@ -51,7 +51,7 @@ export default function EventsPage() {
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
-                
+
                 <div className="absolute bottom-0 left-0 p-8 md:p-12 w-full md:w-2/3 text-white">
                   <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-sm font-medium mb-4">
                     <Sparkles className="w-4 h-4 text-yellow-300" />
@@ -61,7 +61,7 @@ export default function EventsPage() {
                   <p className="text-lg md:text-xl text-neutral-200 mb-8 line-clamp-2">
                     {featuredEvent.description}
                   </p>
-                  
+
                   <div className="flex flex-wrap items-center gap-6 text-sm font-medium">
                     <div className="flex items-center gap-2">
                       <Calendar className="w-5 h-5 text-neutral-400" />
@@ -111,21 +111,21 @@ export default function EventsPage() {
                       className="object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                     <div className="absolute top-4 left-4">
-                        <span className="inline-block px-3 py-1 text-xs font-bold tracking-wide uppercase bg-white/90 backdrop-blur-sm rounded-full text-neutral-900 shadow-sm">
-                            {event.tag}
-                        </span>
+                      <span className="inline-block px-3 py-1 text-xs font-bold tracking-wide uppercase bg-white/90 backdrop-blur-sm rounded-full text-neutral-900 shadow-sm">
+                        {event.tag}
+                      </span>
                     </div>
                   </div>
 
                   {/* Content Area */}
                   <div className="p-8 flex flex-col flex-grow">
                     <div className="mb-auto">
-                        <h3 className="text-2xl font-bold text-neutral-900 mb-3 group-hover:text-primary-600 transition-colors">
-                            {event.title}
-                        </h3>
-                        <p className="text-neutral-500 text-sm leading-relaxed mb-6 line-clamp-2">
-                            {event.description}
-                        </p>
+                      <h3 className="text-2xl font-bold text-neutral-900 mb-3 group-hover:text-primary-600 transition-colors">
+                        {event.title}
+                      </h3>
+                      <p className="text-neutral-500 text-sm leading-relaxed mb-6 line-clamp-2">
+                        {event.description}
+                      </p>
                     </div>
 
                     <div className="pt-6 border-t border-neutral-100 mt-6 space-y-3">

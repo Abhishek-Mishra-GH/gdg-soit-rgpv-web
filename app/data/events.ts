@@ -40,10 +40,10 @@ export const events = [
   // },
   {
     id: "ai-odyssey-2026",
-    title: "AI ODYSSEY 2026",
+    title: "",
     date: "5 MAY 2026",
-    location: "Offline",
-    description: "Compete in this high-energy hackathon to solve real-world challenges.",
+    location: "RGPV Campus",
+    description: "",
     tag: "Upcoming",
     featured: true,
     image: "/gdg-events/ai-adyssey-2026.png",
